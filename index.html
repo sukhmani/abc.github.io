@@ -21,10 +21,35 @@
 	<script type="text/babel">
 
 	class Checkbox extends React.Component {
+	constructor(props) {
+	super(props)
+	this.state = {
+	checked: false
+}
+this.handleCheck = this.handleCheck.bind(this)
+
+}
+
+
+
+ handleCheck()
+{
+	this.setState ({
+	checked: !this.state.checked
+})
+} 
+
 	render() {
+	var msg
+	if(this.state.checked){
+	msg = "checked"
+} else {
+	msg = "not checked"
+}
 	return (
 	<div>
-		<input type="checkbox" />
+		<input type="checkbox" onChange={this.handleCheck}/>
+		<p> This box is {msg}</p>
 	</div>
 	)
 }
