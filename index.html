@@ -20,18 +20,15 @@
 	
 	<script type="text/babel">
 
-	class Hello extends React.Component {
-	render() {
-	return (
-
-	<div id="fancy"> <h1 className ="heading"> hi </h1> </div>
+	const Banner = () => (
+<div>
+	<h1 className = "heding">Welcome to react </h1>
+	<p>have fun</p>
+</div>
 	)
-}
-	}	
-
 	ReactDOM.render(
-	<Hello/>,
-	document.getElementById('react-container')
+<Banner/>,
+document.getElementById('react-container')
 	)
     
    </script>
