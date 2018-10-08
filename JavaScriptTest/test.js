@@ -1,1 +1,3 @@
-console.log('Prog109');
+var prog109 = 'Prog109';
+
+console.log(prog109);
