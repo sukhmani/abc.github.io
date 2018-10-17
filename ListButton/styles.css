@@ -21,7 +21,9 @@ h1.foo {
 {} */
 
 header
-{background: blue}
+{background: rgb(134, 134, 216);
+text-align: center;
+}
 
 header p
 {text-align: center
@@ -32,3 +34,14 @@ header p
     font-size: 80%;
 }
 
+main
+{background-color: aquamarine;}
+
+footer {
+    background-color: aquamarine;
+    text-align: center;
+}
+img#img1
+{width: 0px;
+height: 5px;
+float: left;}
