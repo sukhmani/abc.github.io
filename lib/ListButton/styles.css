@@ -1,0 +1,120 @@
+button {
+    background-color: red ;
+    border: 2px black solid;
+    color: greenyellow;
+    text-align: center;    
+    font-size: 16px;
+    padding: 12px;
+    margin: 12px;
+}
+
+h1 {
+    text-align: center;
+}
+h1.center {
+    text-align: center;
+}
+h1.foo {
+    text-align: center;
+}
+/* h1#new-point
+{} */
+
+header
+{background: rgb(134, 134, 216);
+text-align: center;
+}
+
+header p
+{text-align: center
+}
+
+.byline{
+    font-style: italic;
+    font-size: 80%;
+}
+
+main
+{background-color: aquamarine;}
+
+footer {
+    background-color: aquamarine;
+    text-align: center;
+}
+img#img1
+{width: 0px;
+height: 5px;
+float: left;}
+
+nav {        
+
+    background-color: aliceblue;
+
+    border: 1px green solid;
+
+    padding: 8px;
+
+    margin: -1px 0px 0px 0px;
+
+}
+
+
+
+nav ul {
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    
+
+}
+
+
+
+nav li {
+
+    display: inline;
+
+    padding: 8px;    
+
+   font-size:150%;
+
+}
+.qux {
+    color: blue;
+}
+
+button.test-button {
+    padding-top: 25px;
+    border:10px yellowgreen dashed;
+    border-radius: 8px;
+}
+
+button.test-button:hover {
+   background-color: aquamarine;
+}
+
+button.margin-button
+{margin: 25px;
+}
+
+div#margin-div{
+    border: 1px black solid;
+    display:  inline-block;
+}
+
+aside {
+    border: 1px black solid; 
+    border-radius: 8px;
+    font-size: 120%;
+    font-style: italic;
+    float: right;
+    background-color: yellowgreen;
+    width: 33%;
+    padding: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
