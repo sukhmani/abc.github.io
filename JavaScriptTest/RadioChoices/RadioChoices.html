@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="RadioChoices.css">
+    <link rel="stylesheet" type="text/css" href="basic.css">
     <script src="RadioChoices.js"></script>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link href="basic.css" rel="alternate stylesheet" type="text/css" id="basic">
+    <link href="RadioChoices.css" rel="stylesheet" type="text/css" id="default">
+            
+   
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<script src="elf-code.js"></script>
 </head>
+
 <body>
 
     <header>
@@ -18,36 +28,38 @@
 
     <main>
         <section>
-                <fieldset> 
-                        <legend>The User Selection</legend> 
-                        <p><b>User choice</b>: <span id="user-choice">Unknown</span></p> 
-                    </fieldset>
+            <fieldset>
+                <legend>The User Selection</legend>
+                <p><b>User choice</b>: <span id="user-choice">Unknown</span></p>
+            </fieldset>
 
 
         </section>
 
         <section>
-                <fieldset>
-                        <legend>Our Form</legend>
-                        <!-- OUR FORM GOES HERE -->
-                        <form id="sort-type" action="goThere">
-                                <input type="radio" id="rank" name="sorter" value="Rank" checked>
-                                <label for="rank">Rank</label>
-                            
-                                <input type="radio" id="language" name="sorter" value="Language">
-                                <label for="language">Language</label>
-                                <div>
-                                <input class="btn-padding" type="submit" value="Submit">
-                                </div>
-                            </form>
-                                
-                    </fieldset>
+            <fieldset>
+                <legend>Our Form</legend>
+                <!-- OUR FORM GOES HERE -->
+                <form id="sort-type" action="goThere">
+                    <input type="radio" id="rank" name="sorter" value="Rank" checked>
+                    <label for="rank">Rank</label>
+
+                    <input type="radio" id="language" name="sorter" value="Language">
+                    <label for="language">Language</label>
+                    <div>
+                        <input class="btn-padding" type="submit" value="Submit">
+                    </div>
+                </form>
+
+            </fieldset>
         </section>
+        <button id="appearanceAction" type="button">appearance</button>
     </main>
     <footer>
         <p>
-        &copy; Sukhmani T 
-    </p>
+            &copy; Sukhmani T
+        </p>
     </footer>
 </body>
+
 </html>
